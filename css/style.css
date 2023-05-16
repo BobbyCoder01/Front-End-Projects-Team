@@ -44,19 +44,45 @@
     text-align: center;
     text-decoration: none;
 }
+.fh3hf{
+    margin: 1rem 2rem;
+}
+.fh3hf img{
+    margin-left: 2rem;
+    border-radius: 10px;
+    width: 48rem;
+    height: 25rem;
+}
+/* main work */
+.main{
+    background-color: blue;
+}
 .leading{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
-    padding-top: 1rem;
+    padding-top: 3rem;
     flex-wrap: nowrap;
     color: white;
 }
 .leading h3{
     text-align: center;
     padding-top: 10px;
-    font-size: 45px;
+    font-size: 40px;
     font-family: sans-serif ;
     line-height: 1.05;
+}
+.f34h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dbw433{
+    padding: 10px 20px;
+    width: 10rem;
+}
+/* control */
+.control{
+background-color: blue;
 }
