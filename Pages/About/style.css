@@ -1,0 +1,310 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: rgb(71, 3, 136);
+    overflow-x: hidden;
+}
+
+.logo {
+    height: 59px ;
+    position: relative;
+    top: 18px;
+    left: 45px;
+    
+}
+.logo img{
+    height: 59px ;
+}
+.container {
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
+.firsttext {
+    width: 371px;
+}
+
+.firsttext h1 {
+
+    color: white;
+    height: auto;
+    width: auto;
+    margin-left: -48px;
+    margin-bottom: 30px;
+    font-family: Balootamma2, sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 1.05;
+}
+
+.firsttext h3 {
+    font-size: 15px;
+    color: lightgray;
+    margin-left: -46px;
+}
+
+.secondtext {
+    width: 344px;
+    margin-top: 30px;
+}
+
+
+.secondtext h1 {
+    margin-bottom: 6px;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: -24px;
+}
+
+.firsttext h4 {
+    height: c;
+    width: 339px;
+    font-size: 15px;
+    color: lightgrey;
+    margin-left: -46px;
+}
+
+.imagecontainer {
+    position: relative;
+    top: 23px;
+    right: -176px;
+}
+
+.container-2 {
+    display: inline-flex;
+    position: relative;
+    top: 358px;
+}
+
+.container-2 h1 {
+    color: gainsboro;
+}
+
+.container-2 h4 {
+    color: grey;
+
+}
+
+.leadershipteam h1 {
+    position: relative;
+    top: -61px;
+    left: 73px;
+}
+
+.container-3 {
+    position: absolute;
+    top: 260%;
+}
+
+
+
+/* leaders profiile starts here */
+.leadersprofile1 {
+
+    position: relative;
+    left: -231px;
+    top: 20px;
+}
+
+.leadersprofile2 {
+
+    position: relative;
+    left: 18px;
+    top: 20px;
+}
+
+.leadersprofile3 {
+    position: relative;
+    left: 251px;
+    top: 20px;
+    top: 20px;
+}
+
+.leadersprofile4 {
+    position: relative;
+    left: -431px;
+    top: 300px;
+    border-radius: 50%;
+}
+
+/* linkedin images start from here */
+.leadersprofile1 .linkedin-team {
+    width: 40px;
+    margin-left: 90px;
+}
+
+.leadersprofile2 .linkedin-team {
+    width: 40px;
+    margin-left: 80px;
+}
+
+.leadersprofile3 .linkedin-team {
+    width: 40px;
+    margin-left: 80px;
+}
+
+.leadersprofile4 .linkedin-team {
+    width: 40px;
+    margin-left: 80px;
+}
+
+/* now image tern style css */
+.leadersprofile1 .firstco {
+    position: relative;
+    left: 61px;
+}
+
+.leadersprofile2 .secondco {
+    position: relative;
+    left: 57px;
+}
+
+.leadersprofile3 .thirdco {
+    position: relative;
+    left: 47px;
+}
+
+.leadersprofile4 .fourthco {
+    position: relative;
+    left: 51px;
+}
+
+/* investers start from here */
+.container-3 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.container-3 .investors h1 {
+    position: relative;
+    top: px;
+    left: 73px;
+    color: whitesmoke;
+}
+
+.container-4 {
+    position: absolute;
+    top: 250%;
+    left: 769px;
+}
+
+.investers-logo-1 h3 {
+    position: relative;
+    color: white;
+    top: 255px;
+    left: -92px;
+}
+
+.investers-logo-1 .softbank {
+    position: relative;
+
+    top: 245px;
+    left: -92px;
+}
+
+.investers-logo-2 .vertex {
+    position: relative;
+    top: 90px;
+    left: 45px;
+
+}
+
+.investers-logo-2 h3 {
+    position: relative;
+    color: white;
+    top: 125px;
+    left: 62px;
+}
+
+.investers-logo-3 {
+    position: absolute;
+    top: 283%;
+    left: 725px;
+}
+
+.investers-logo-3 h3 {
+    position: relative;
+    color: aliceblue;
+}
+
+.container-4 {
+    height: 130vh;
+    position: absolute;
+    top: 250%;
+}
+
+.container-4 .logo .fasd {
+    position: relative;
+    bottom: -600px;
+    height: 70px;
+    left: -750px;
+}
+
+.container-4 .logo .sadf {
+    position: relative;
+    /* padding: 5px; */
+    bottom: -600px;
+    height: 90px;
+    left: -750px;
+}
+
+.container-4 .logo .copyright {
+    position: relative;
+    bottom: -690px;
+    left: -940px;
+    color: grey;
+    font-weight: bold;
+}
+
+.container-4 .logo a {
+    position: relative;
+    bottom: -690px;
+    left: -930px;
+    color: grey;
+    /* height: 30px; */
+    font-weight: bolder;
+    text-decoration: none;
+    /* list-style: none; */
+}
+
+.container-4 .logo .linkedin-team {
+    height: 30px;
+    position: relative;
+    bottom: -688px;
+    left: -930px;
+    color: grey;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.container-4 .navigation {
+    display: flex;
+    /* height: 20px; */
+    position: relative;
+    bottom: -558px;
+    left: -130px;
+    color: grey;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.container-4 .navigation  {
+    text-decoration: none;
+    list-style: none;
+     
+}
+.container-4 .navigation li a{
+    position: relative;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: aliceblue;
+}
+.container-4 .navigation li a:hover{
+color: violet;
+transition-duration: .2s;
+}
