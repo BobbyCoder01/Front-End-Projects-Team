@@ -198,3 +198,84 @@
     font-size: 15px;
     text-align: center;
 }
+/* firefly */
+.aishf{
+    display: flex; 
+    width: 100%;
+    margin-top: 2rem;
+}
+.aishf h3{
+    text-align: center;
+    font-size: 45px;
+    line-height: 1.05;
+    margin-left: 5rem;
+}
+.fhfks{
+    display: flex;
+    width: 100%;
+}
+.fhfks img{
+    width: 40rem;
+    margin-left: 5rem;
+}
+.fhfks h3{
+    text-align: center;
+    padding-top: 10rem;
+    font-size: 45px;
+    padding-left: 5rem;
+    line-height: 1.05;
+}
+.oipwe{
+    display: flex; 
+    width: 100%;
+    margin-top: 2rem;
+}
+.oipwe h3{
+    text-align: center;
+    padding-top: 10rem;
+    font-size: 45px;
+    padding-left: 5rem;
+    line-height: 1.05;
+}
+.oipwe img{
+    width: 40rem;
+    margin-left: 8rem;
+}
+.oipwe-1{
+    display: flex; 
+    width: 100%;
+    margin-top: 2rem;
+}
+.oipwe-1 h3{
+    text-align: center;
+    padding-top: 10rem;
+    font-size: 45px;
+    padding-left: 5rem;
+    line-height: 1.05;
+}
+.oipwe-1 img{
+    width: 40rem;
+    margin-left: 20rem;
+}
+/* technology-partners */
+.eiouq{
+    display: flex; 
+    width: 100%;
+    margin-top: 2rem;
+}
+.eiouq h3{
+    text-align: center;
+    font-size: 45px;
+    padding-left: 5rem;
+    line-height: 1.05;
+}
+.opieew{
+    display: flex; 
+}
+.opieew img{
+    width: 6rem;
+    padding: 6rem 7rem;
+}
+.opieew h5{
+    
+}
