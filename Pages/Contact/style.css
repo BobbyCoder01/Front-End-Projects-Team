@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* color: #fff; */
+    background-color: rgb(71, 3, 136);
+    overflow-x: hidden;
+    font-family: Halcom, sans-serif;
+}
+
+.first-container {
+    height: 50vh;
+    display: block;
+}
+
+.container-1 {
+    position: relative;
+    top: 25%;
+}
+
+.contactus {
+    /* align-items: center; */
+    /* justify-content: center; */
+    position: relative;
+    left: 40%;
+
+}
+
+.contactus h1 {
+    position: relative;
+    color: aliceblue;
+    font-size: 70px;
+    top: 80px;
+}
+
+.contactus p {
+    position: relative;
+    top: 86px;
+    left: -2%;
+    color: darkgrey;
+    font-size: 20px;
+}
+
+.second-container {
+    position: relative;
+    left: 80px;
+    top: 100px;
+    /* height: 100px;
+    width: 50px; */
+}
+
+.card1 {
+    position: relative;
+}
+
+.card2 {
+    position: relative;
+    top: 147px;
+}
+
+.cards {
+    background-color: #4d4475;
+    border: 5px solid white;
+    border-radius: 20px;
+    position: relative;
+    top: 90px;
+    width: 450px;
+    height: 630px;
+}
+
+.card1 h1 {
+    position: relative;
+    top: 60px;
+    left: 40px;
+    color: bisque;
+}
+
+.card1 p {
+    position: relative;
+    top: 80px;
+    font-size: 20px;
+    color: bisque;
+    left: 60px;
+}
+
+.card2 h1 {
+    position: relative;
+    top: 60px;
+    left: 40px;
+    color: bisque;
+}
+
+.card2 p {
+    position: relative;
+    top: 80px;
+    font-size: 20px;
+    color: bisque;
+    left: 40px;
+}
+
+.card2 .link-line {
+    color: #33fdd8;
+    text-decoration: none;
+}
+
+.login-page .login {
+    position: relative;
+    left: 695px;
+    width: 362px;
+    top: -313px;
+}
+
+.first-name {
+    color:whitesmoke;
+    background-color: blueviolet;
+    position: relative;
+    width: 362px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 3px lightslategray;
+}
+.last-name{
+    position: relative;
+    width: 362px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.email{
+    position: relative;
+    width: 362px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.note{
+    position: relative;
+    width: 362px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
