@@ -1,0 +1,371 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #45108a;
+    background-image: url(https://uploads-ssl.webflow.com/6166f5c…/6166f5c…_Rectangle%2037.svg);
+}
+
+.first-container {
+    height: 300px;
+    width: 200px;
+}
+
+.second-container {
+    display: flex;
+
+}
+
+.pricing h1 {
+    font-size: 60px;
+    margin-left: 580px;
+    padding-top: 107px;
+    color: whitesmoke;
+}
+
+.second-container {
+    padding: 3px;
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+.card {
+    color: aliceblue;
+    width: 270px;
+    height: 905px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.5, 0.5);
+    overflow: hidden;
+    border: 3px lightseagreen;
+    text-decoration: none;
+    list-style: none;
+}
+
+.card img {
+    padding-left: 50px;
+    margin-top: 40px;
+}
+
+.card h1 {
+    margin-left: 20px;
+}
+.card HR{
+    width: 245px;
+}
+.card h4 {
+    margin-left: 15px;
+    font-size: 12px;
+    color: lightblue;
+}
+
+.card p {
+    position: relative;
+    left: -28px;
+    font-size: 18px;
+    margin: -9px;
+}
+
+.linkone {
+    color: aliceblue;
+    background-image: linear-gradient(153deg, #33fdd8, #7a4aff 52%, #45108a);
+    border-radius: 10px;
+    height: 20px;
+    width: 75px;
+    /* display: inline; */
+    padding: 15px 90px 24px 90px;
+    margin-left: 7px;
+    margin-top: 135px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.5, 0.5);
+    overflow: hidden;
+    border: 3px lightseagreen;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+.linkone a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: inline-flex;
+    font-size: 26px;
+    height: 50px;
+    margin-left: -23px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.linktwo {
+    color: aliceblue;
+    background-image: linear-gradient(153deg, #33fdd8, #7a4aff 52%, #45108a);
+    border-radius: 10px;
+    height: 20px;
+    width: 75px;
+    /* display: inline; */
+    padding: 15px 90px 24px 90px;
+    margin-left: 7px;
+    margin-top: 140px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.5, 0.5);
+    overflow: hidden;
+    border: 3px lightseagreen;
+    align-items: center;
+    justify-content: center;
+}
+
+.linktwo a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: inline-flex;
+    font-size: 26px;
+    height: 50px;
+    margin-left: -23px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.linkthree {
+    color: aliceblue;
+    background-image: linear-gradient(153deg, #33fdd8, #7a4aff 52%, #45108a);
+    border-radius: 10px;
+    height: 20px;
+    width: 75px;
+    /* display: inline; */
+    padding: 15px 90px 24px 90px;
+    margin-left: 8px;
+    margin-top: 106px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.5, 0.5);
+    overflow: hidden;
+    border: 3px lightseagreen;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkthree a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: inline-flex;
+    font-size: 26px;
+    height: 50px;
+    margin-left: -23px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.linkfour {
+    color: aliceblue;
+    background-image: linear-gradient(153deg, #33fdd8, #7a4aff 52%, #45108a);
+    border-radius: 10px;
+    height: 20px;
+    width: 75px;
+    /* display: inline; */
+    padding: 15px 90px 24px 90px;
+    margin-left: 8px;
+    margin-top: 101px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.5, 0.5);
+    overflow: hidden;
+    border: 3px lightseagreen;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkfour a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: inline-flex;
+    font-size: 26px;
+    height: 50px;
+    margin-left: -23px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.third-container {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.heading {
+    margin-top: 140px;
+    margin-bottom: 130px;
+    color: azure;
+    font-size: 35px;
+    margin-left: 460px;
+}
+.heading h1{
+margin-left: -58px;
+}
+.first HR{
+    width: 1225PX;
+}
+.second HR{
+    width: 1225PX;
+}
+.third HR{
+    width: 1225PX;
+}
+.four HR{
+    width: 1225PX;
+}
+.five HR{
+    width: 1225PX;
+}
+.first h1 {
+    color: azure;
+    font-size: 35px;
+    margin-left: 60px;
+}
+
+.first p {
+    font-size: 20px;
+    margin-left: 60px;
+    color: lightgrey;
+}
+.first img{
+    position: relative;
+    left: 1268px;
+    top: -104px;
+}
+.second h1 {
+    color: azure;
+    font-size: 35px;
+    margin-left: 60px;
+}
+.second img{
+    position: relative;
+    left: 1268px;
+    top: -125px;
+}
+
+.second p {
+    font-size: 20px;
+    margin-left: 60px;
+    color: lightgrey;
+}
+.third h1 {
+    color: azure;
+    font-size: 35px;
+    margin-left: 60px;
+}
+.third img{
+    position: relative;
+    left: 1268px;
+    top: -104px;
+}
+
+.third p {
+    font-size: 20px;
+    margin-left: 60px;
+    color: lightgrey;
+}
+.four h1 {
+    color: azure;
+    font-size: 35px;
+    margin-left: 60px;
+}
+.four img{
+    position: relative;
+    left: 1268px;
+    top: -104px;
+}
+
+.four p {
+    font-size: 20px;
+    margin-left: 60px;
+    color: lightgrey;
+}
+.five h1 {
+    color: azure;
+    font-size: 35px;
+    margin-left: 60px;
+}
+.five img{
+    position: relative;
+    left: 1268px;
+    top: -104px;
+}
+
+.five p {
+    font-size: 20px;
+    margin-left: 60px;
+    color: lightgrey;
+}
+ 
+
+.container-4 .logo .sadf {
+    position: relative;
+    /* padding: 5px; */
+    bottom: -265px;
+    height: 90px;
+    left: 78px;
+}
+.container-4 .logo .fasd{
+    position: relative;
+    left: 49px;
+    top: 246px;
+}
+
+.container-4 .logo .copyright {
+    position: relative;
+    bottom: -307px;
+    left: -141px;
+    color: grey;
+    font-weight: bold;
+}
+
+.container-4 .logo a {
+    position: relative;
+    bottom: -306px;
+    left: -96px;
+    color: grey;
+    /* height: 30px; */
+    font-weight: bolder;
+    text-decoration: none;
+    padding-bottom: 100px;
+    /* list-style: none; */
+}
+
+.container-4 .logo .linkedin-team {
+    height: 15px;
+    position: relative;
+    bottom: -309px;
+    left: -102px;
+    color: grey;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.container-4 .navigation {
+    font-size: 20px;
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+    bottom: -200px;
+    left: 579px;
+    display: flex;
+    padding: 10px;
+    /* justify-content:space-evenly; */
+}
+
+
+.container-4 .navigation li a {
+    position: relative;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.container-4 .navigation li a:hover {
+    color: blueviolet;
+    transition-duration: .2s;
+}

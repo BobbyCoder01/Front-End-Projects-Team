@@ -5,6 +5,7 @@
 
 body {
     /* color: #fff; */
+    margin-top: -24px;
     background-color: rgb(71, 3, 136);
     overflow-x: hidden;
     font-family: Halcom, sans-serif;
@@ -113,33 +114,261 @@ body {
 }
 
 .first-name {
-    color:whitesmoke;
+    color: whitesmoke;
     background-color: blueviolet;
     position: relative;
-    width: 362px;
-    height: 50px;
+    width: 562px;
+    height: 60px;
     border-radius: 10px;
     padding-left: 10px;
     border: 3px lightslategray;
 }
-.last-name{
+
+.last-name {
+    background-color: blueviolet;
     position: relative;
-    width: 362px;
-    height: 50px;
+    width: 562px;
+    height: 60px;
     border-radius: 10px;
     padding-left: 10px;
 }
-.email{
+
+.email {
+    background-color: blueviolet;
     position: relative;
-    width: 362px;
-    height: 50px;
+    width: 562px;
+    height: 60px;
     border-radius: 10px;
     padding-left: 10px;
 }
-.note{
+
+.note {
+    background-color: blueviolet;
     position: relative;
-    width: 362px;
-    height: 50px;
+    width: 562px;
+    height: 60px;
     border-radius: 10px;
     padding-left: 10px;
+}
+
+.letstalk {
+    background-image: url(https://uploads-ssl.webflow.com/6166f5c…/6166f5c…_Group%202.svg), linear-gradient(153deg, #33fdd8, #7a4aff 52%, #45108a);
+    top: 10px;
+    font-size: 20px;
+    margin-top: 34px;
+    color: aliceblue;
+    background-color: lightblue;
+    padding: 19px 40px 19px 40px;
+    border-radius: 18px;
+    transition: all .3s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+.paragraph {
+    font-size: 12px;
+    color: grey;
+    top: -52px;
+    right: -280px;
+    position: relative;
+
+}
+
+.paragraph a {
+    color: #33fdd8;
+    font-size: 19px;
+}
+
+.firstname {
+    position: relative;
+    top: 38px;
+    left: 17px;
+    scale: 1;
+    z-index: 11;
+    color: white;
+}
+
+.firstname:hover{
+    display: hidden;
+    overflow: hidden;
+    color: #4510;
+    transition: 0.5s;
+    /* transition-du: 30s; */
+}
+
+.Lastname {
+    position: relative;
+    top: 42px;
+    left: 17px;
+    scale: 1;
+    z-index: 11;
+    color: white;
+}
+.Lastname:hover{
+    display: hidden;
+    overflow: hidden;
+    color: #4510;
+    transition: 0.5s;
+    /* transition-du: 30s; */
+}
+
+.Email {
+    position: relative;
+    top: 42px;
+    left: 17px;
+    scale: 1;
+    z-index: 11;
+    color: white;
+}
+.Email:hover{
+    display: hidden;
+    overflow: hidden;
+    color: #4510;
+    transition: 0.5s;
+    /* transition-du: 30s; */
+}
+.Note:hover{
+    display: hidden;
+    overflow: hidden;
+    color: #4510;
+    transition: 0.5s;
+    /* transition-du: 30s; */
+}
+
+.Note {
+    position: relative;
+    top: 42px;
+    left: 17px;
+    scale: 1;
+    z-index: 11;
+    color: white;
+}
+
+.third-container {
+    border-radius: 30px;
+    margin-left: 72px;
+    z-index: 10;
+    grid-column-gap: 40px;
+    background-image: linear-gradient(153deg, rgba(51, 253, 216, .7), rgba(122, 74, 255, .7) 52%, rgba(69, 16, 138, .8));
+    flex-direction: column;
+    margin-bottom: 60px;
+    padding-top: 42px;
+    width: 1200px;
+    padding-left: 2px;
+    padding-right: 3px;
+    padding-bottom: 120px;
+    position: relative;
+    top: -286px;
+}
+
+.third-container h1 {
+    position: relative;
+    top: -20px;
+    color: white;
+    left: 244px;
+    font-size: 45px;
+}
+
+.twobuttons {
+    position: relative;
+    left: 606px;
+    top: 42px;
+    
+}
+.twobuttons a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.twobuttons .btn {
+    color: #fff;
+    margin-left: -175px;
+    background-image: linear-gradient(153deg, #33fdd8, #7a4aff 52%, #45108a);
+    border-radius: 10px;
+    /* align-items: center; */
+    padding: 12px 18px;
+    font-size: 18px;
+    display: flex;
+    
+}
+
+.twobuttons .secondbtn {
+    margin-top: -48px;
+    color: #fff;
+    background-image: linear-gradient(153deg, #33fdd8, #7a4aff 52%, #45108a);
+    border-radius: 10px;
+    /* align-items: center; */
+    padding: 12px 18px;
+    font-size: 18px;
+    display: flex;
+}
+
+/* footer css style */
+.container-4 .logo .fasd {
+    position: relative;
+    bottom: 180px;
+    height: 70px;
+    left: 68px;
+}
+
+.container-4 .logo .sadf {
+    position: relative;
+    /* padding: 5px; */
+    bottom: 165px;
+    height: 90px;
+    left: 78px;
+}
+
+.container-4 .logo .copyright {
+    position: relative;
+    bottom: 101px;
+    left: -121px;
+    color: grey;
+    font-weight: bold;
+}
+
+.container-4 .logo a {
+    position: relative;
+    bottom: 102px;
+    left: -88px;
+    color: grey;
+    /* height: 30px; */
+    font-weight: bolder;
+    text-decoration: none;
+    /* list-style: none; */
+}
+
+.container-4 .logo .linkedin-team {
+    height: 15px;
+    position: relative;
+    bottom: 100px;
+    left: -87px;
+    color: grey;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.container-4 .navigation {
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+    bottom: 225px;
+    left: 581px;
+    display: flex;
+}
+
+
+.container-4 .navigation li a {
+    position: relative;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.container-4 .navigation li a:hover {
+    color: violet;
+    transition-duration: .2s;
 }

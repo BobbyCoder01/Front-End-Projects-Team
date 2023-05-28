@@ -1,0 +1,77 @@
+
+/* this style will be apply on 576px or smaller width */
+@media (max-width: 375px) {
+    .logo{
+        height: 45px;
+        position: relative;
+        top: 1px;
+        left: 8px;
+    }
+}
+@media (max-width: 375px) {
+.leadershipteam h1 {
+    position: relative;
+    top: -220px;
+    left: 111px;
+}
+}
+@media (max-width: 375px) {
+    .leadersprofile1   {
+        position: relative;
+        left: -113px;
+        top: -90px;
+    }
+    }
+    @media (max-width: 375px) {
+        .leadersprofile2 {
+            position: relative;
+            left: -60px;
+            top: -86px;
+    }
+}
+@media (max-width: 375px) {
+    .leadersprofile3 {
+        position: relative;
+        left: -282px;
+        top: 20px;
+        top: 258px;
+    }
+}
+@media screen and (max-width: 767px){
+.firsttext h1 {
+    font-size: 34px;
+    margin-left: 10px;
+}
+}
+@media (max-width: 375px) {
+    .leadersprofile4 {
+        position: relative;
+    left: -402px;
+    top: 555px;
+    }
+}@media (max-width: 375px) {
+.imagecontainer img{
+height: 230px;
+}
+} 
+@media screen and (max-width: 767px){
+    .firsttext h3 {
+        margin-left: 11px;
+    }
+    }
+    @media screen and (max-width: 767px){
+        .secondtext h4 {
+            font-size: 15px;
+            margin-left: 10px;
+        }
+        }
+        @media (max-width: 375px) {
+            .container-4 .navigation {
+                flex-direction: column;
+                text-decoration: none;
+                list-style: none;
+                margin-left: -608px;
+                font-size: 26px;
+                margin-top: 800px;
+            }
+        }

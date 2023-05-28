@@ -231,7 +231,7 @@ body {
     position: relative;
     color: aliceblue;
 }
-
+/* footer css style */
 .container-4 {
     height: 130vh;
     position: absolute;
@@ -308,3 +308,6 @@ body {
 color: violet;
 transition-duration: .2s;
 }
+
+/* media quiry start from here */
+  
